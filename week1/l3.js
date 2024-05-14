@@ -56,11 +56,10 @@
 // numeric half
 
 const n=5
-let count=0
 for(let row=0; row<n; row++){
     let stars =''
     for(let col=0; col<row+1; col++){
-        stars += count++
+        stars += col+1
     }
     console.log(stars);
 }
